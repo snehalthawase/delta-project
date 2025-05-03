@@ -8,11 +8,10 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo 'skipping build step'",
-  "render-build": "./render-build.sh",
-  "start": "node app.js"
-  },
+  "start": "node app.js",
+  "build": "echo \"no build step\""
+},
+
   "keywords": [],
   "author": "",
   "license": "ISC",
