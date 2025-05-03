@@ -152,7 +152,7 @@ app.use((err, req, res, next) => {
 });
 
 
-const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+app.listen(8080, () => {
+  console.log("server is listening to port 8080");
 });
+
